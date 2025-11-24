@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_goldBar",
   "bboxMode":2,
   "bbox_bottom":47,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"61da347b-990d-4985-92d4-2c22cd935e47","name":"61da347b-990d-4985-92d4-2c22cd935e47","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"61da347b-990d-4985-92d4-2c22cd935e47","name":"61da347b-990d-4985-92d4-2c22cd935e47","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

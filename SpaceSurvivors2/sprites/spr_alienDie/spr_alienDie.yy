@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_alienDie",
   "bboxMode":0,
   "bbox_bottom":74,
@@ -12,12 +12,12 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9603fd23-4e8d-41d8-871e-13195855d8e5","name":"9603fd23-4e8d-41d8-871e-13195855d8e5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"cbcb03c5-5d4f-45a2-a2cb-a2dea1c2b587","name":"cbcb03c5-5d4f-45a2-a2cb-a2dea1c2b587","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ac8f37d5-f45f-4583-82c1-6d5c0aabf82f","name":"ac8f37d5-f45f-4583-82c1-6d5c0aabf82f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0ce8eeb5-136a-4ac1-937f-f2d0326d3cb9","name":"0ce8eeb5-136a-4ac1-937f-f2d0326d3cb9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"55ad4d2a-1190-4f6e-8652-ad3c5e61cfad","name":"55ad4d2a-1190-4f6e-8652-ad3c5e61cfad","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"073d5362-916f-44fc-aad3-b78448ce161a","name":"073d5362-916f-44fc-aad3-b78448ce161a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9603fd23-4e8d-41d8-871e-13195855d8e5","name":"9603fd23-4e8d-41d8-871e-13195855d8e5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cbcb03c5-5d4f-45a2-a2cb-a2dea1c2b587","name":"cbcb03c5-5d4f-45a2-a2cb-a2dea1c2b587","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ac8f37d5-f45f-4583-82c1-6d5c0aabf82f","name":"ac8f37d5-f45f-4583-82c1-6d5c0aabf82f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0ce8eeb5-136a-4ac1-937f-f2d0326d3cb9","name":"0ce8eeb5-136a-4ac1-937f-f2d0326d3cb9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"55ad4d2a-1190-4f6e-8652-ad3c5e61cfad","name":"55ad4d2a-1190-4f6e-8652-ad3c5e61cfad","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"073d5362-916f-44fc-aad3-b78448ce161a","name":"073d5362-916f-44fc-aad3-b78448ce161a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -38,13 +38,7 @@
     "resourceType":"GMNineSliceData",
     "resourceVersion":"2.0",
     "right":0,
-    "tileMode":[
-      0,
-      0,
-      0,
-      0,
-      0,
-    ],
+    "tileMode":[0,0,0,0,0,],
     "top":0,
   },
   "origin":4,
@@ -94,24 +88,12 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9603fd23-4e8d-41d8-871e-13195855d8e5","path":"sprites/spr_alienDie/spr_alienDie.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"cb4a8693-ccc5-4da6-86a3-028a216abab0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cbcb03c5-5d4f-45a2-a2cb-a2dea1c2b587","path":"sprites/spr_alienDie/spr_alienDie.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2d3d49bc-2f14-4448-8405-6d1317427da2","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ac8f37d5-f45f-4583-82c1-6d5c0aabf82f","path":"sprites/spr_alienDie/spr_alienDie.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"eb3c10ab-7c39-41e3-a226-f7ae051c7693","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0ce8eeb5-136a-4ac1-937f-f2d0326d3cb9","path":"sprites/spr_alienDie/spr_alienDie.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e9c21a56-6cbf-4cbe-8abc-20de6a1fda0d","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"55ad4d2a-1190-4f6e-8652-ad3c5e61cfad","path":"sprites/spr_alienDie/spr_alienDie.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0774a964-f620-47ad-ac67-b665f7d40e29","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"073d5362-916f-44fc-aad3-b78448ce161a","path":"sprites/spr_alienDie/spr_alienDie.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ad5127e5-bbd4-4a59-b8fd-82c590815a03","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9603fd23-4e8d-41d8-871e-13195855d8e5","path":"sprites/spr_alienDie/spr_alienDie.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"cb4a8693-ccc5-4da6-86a3-028a216abab0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"cbcb03c5-5d4f-45a2-a2cb-a2dea1c2b587","path":"sprites/spr_alienDie/spr_alienDie.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2d3d49bc-2f14-4448-8405-6d1317427da2","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ac8f37d5-f45f-4583-82c1-6d5c0aabf82f","path":"sprites/spr_alienDie/spr_alienDie.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"eb3c10ab-7c39-41e3-a226-f7ae051c7693","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"0ce8eeb5-136a-4ac1-937f-f2d0326d3cb9","path":"sprites/spr_alienDie/spr_alienDie.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e9c21a56-6cbf-4cbe-8abc-20de6a1fda0d","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"55ad4d2a-1190-4f6e-8652-ad3c5e61cfad","path":"sprites/spr_alienDie/spr_alienDie.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"0774a964-f620-47ad-ac67-b665f7d40e29","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"073d5362-916f-44fc-aad3-b78448ce161a","path":"sprites/spr_alienDie/spr_alienDie.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ad5127e5-bbd4-4a59-b8fd-82c590815a03","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

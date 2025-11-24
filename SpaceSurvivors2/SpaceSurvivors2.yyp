@@ -2,7 +2,7 @@
   "$GMProject":"v1",
   "%Name":"SpaceSurvivors2",
   "AudioGroups":[
-    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -35,18 +35,22 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.14.0.207",
   },
   "name":"SpaceSurvivors2",
   "resources":[
     {"id":{"name":"font_12","path":"fonts/font_12/font_12.yy",},},
+    {"id":{"name":"font_30","path":"fonts/font_30/font_30.yy",},},
     {"id":{"name":"font_40","path":"fonts/font_40/font_40.yy",},},
+    {"id":{"name":"font_60","path":"fonts/font_60/font_60.yy",},},
     {"id":{"name":"obj_alien","path":"objects/obj_alien/obj_alien.yy",},},
     {"id":{"name":"obj_alienSpawner","path":"objects/obj_alienSpawner/obj_alienSpawner.yy",},},
     {"id":{"name":"obj_ctrlGame","path":"objects/obj_ctrlGame/obj_ctrlGame.yy",},},
     {"id":{"name":"obj_ctrlMenu","path":"objects/obj_ctrlMenu/obj_ctrlMenu.yy",},},
     {"id":{"name":"obj_ctrlPersistent","path":"objects/obj_ctrlPersistent/obj_ctrlPersistent.yy",},},
     {"id":{"name":"obj_effect","path":"objects/obj_effect/obj_effect.yy",},},
+    {"id":{"name":"obj_fadeIn","path":"objects/obj_fadeIn/obj_fadeIn.yy",},},
+    {"id":{"name":"obj_fadeOutIntoMenu","path":"objects/obj_fadeOutIntoMenu/obj_fadeOutIntoMenu.yy",},},
     {"id":{"name":"obj_gameLeaver","path":"objects/obj_gameLeaver/obj_gameLeaver.yy",},},
     {"id":{"name":"obj_gamepadController","path":"objects/obj_gamepadController/obj_gamepadController.yy",},},
     {"id":{"name":"obj_gameTitle","path":"objects/obj_gameTitle/obj_gameTitle.yy",},},
@@ -75,6 +79,8 @@
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"obj_wallInvis","path":"objects/obj_wallInvis/obj_wallInvis.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"id":{"name":"rm_game2","path":"rooms/rm_game2/rm_game2.yy",},},
+    {"id":{"name":"rm_introStory","path":"rooms/rm_introStory/rm_introStory.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"scr_gamepadsVars","path":"scripts/scr_gamepadsVars/scr_gamepadsVars.yy",},},
     {"id":{"name":"s_backgroundMusic","path":"sounds/s_backgroundMusic/s_backgroundMusic.yy",},},
@@ -111,8 +117,10 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_introStory","path":"rooms/rm_introStory/rm_introStory.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"roomId":{"name":"rm_game2","path":"rooms/rm_game2/rm_game2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
