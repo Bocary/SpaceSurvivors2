@@ -63,5 +63,31 @@ if (_current_speed > (maxSpeed * maxSpeed)) {
 	ySpeed *= _scale_factor
 }
 
-x += xSpeed * _delta_time_seconds
-y += ySpeed * _delta_time_seconds
+// Calculate the intended movement amount for this frame
+var _move_x = xSpeed * _delta_time_seconds;
+var _move_y = ySpeed * _delta_time_seconds;
+
+// --- X AXIS COLLISION ---
+// Check if the spot we want to move to contains a wall (obj_wall)
+if (place_meeting(x + _move_x, y, obj_wall)) {
+    // If we would hit a wall, loop to move as close as possible without hitting it
+    while (!place_meeting(x + sign(_move_x), y, obj_wall)) {
+        x += sign(_move_x);
+    }
+    // We have touched the wall, so stop movement
+    _move_x = 0;
+    xSpeed = 0; // Zero out the velocity variable so momentum doesn't build up
+}
+// Apply the X movement
+x += _move_x;
+
+// --- Y AXIS COLLISION ---
+if (place_meeting(x, y + _move_y, obj_wall)) {
+    while (!place_meeting(x, y + sign(_move_y), obj_wall)) {
+        y += sign(_move_y);
+    }
+    _move_y = 0;
+    ySpeed = 0;
+}
+// Apply the Y movement
+y += _move_y;
