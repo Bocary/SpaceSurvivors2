@@ -8,11 +8,11 @@ alarm[0]=2
 shoot_area = instance_create_depth(x-100,y,depth,obj_shootArea)
 
 
-maxCooldown = room_speed*1.5
+maxCooldown = global.game_speed_fps*1.5
 cooldown = maxCooldown;
 
 maxEnergy = 50
 energy = maxEnergy
 
 //recharge 10 energy
-alarm[0]=room_speed*10
+alarm[0]=global.game_speed_fps*10

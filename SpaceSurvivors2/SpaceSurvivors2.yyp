@@ -35,7 +35,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.0.207",
+    "IDEVersion":"2024.14.1.210",
   },
   "name":"SpaceSurvivors2",
   "resources":[
@@ -83,6 +83,7 @@
     {"id":{"name":"rm_introStory","path":"rooms/rm_introStory/rm_introStory.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"scr_gamepadsVars","path":"scripts/scr_gamepadsVars/scr_gamepadsVars.yy",},},
+    {"id":{"name":"scr_globals_init","path":"scripts/scr_globals_init/scr_globals_init.yy",},},
     {"id":{"name":"s_backgroundMusic","path":"sounds/s_backgroundMusic/s_backgroundMusic.yy",},},
     {"id":{"name":"s_careful_faster","path":"sounds/s_careful_faster/s_careful_faster.yy",},},
     {"id":{"name":"s_engine","path":"sounds/s_engine/s_engine.yy",},},

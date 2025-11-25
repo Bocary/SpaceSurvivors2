@@ -6,4 +6,4 @@ if(energy<maxEnergy){
 	if(energy>maxEnergy){energy=maxEnergy}
 }
 
-alarm[0]=room_speed*10
+alarm[0]=global.game_speed_fps*10

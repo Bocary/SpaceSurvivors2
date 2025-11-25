@@ -9,7 +9,7 @@ if (place_meeting(x, y, obj_playerParent)) {
 	// Tick down cooldown
 	if (global.gold>= price) {tick++};
 
-    if (tick >= room_speed*3) {
+    if (tick >= global.game_speed_fps*3) {
 		
 		global.gold-=price
 				
