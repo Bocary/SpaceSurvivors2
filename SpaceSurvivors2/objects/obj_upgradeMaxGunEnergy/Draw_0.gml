@@ -21,7 +21,7 @@ if(touching==1)
 	var bar_yoff   = 60;  // how far above the gun
 
 	// Calculate fill percentage
-	var pct = tick / (room_speed * 3);
+	var pct = tick / (global.game_speed_fps * 3);
 
 	if (pct < 0) pct = 0;
 	if (pct > 1) pct = 1;
