@@ -12,6 +12,9 @@ shoot = 0
 xSpeed = 0 
 ySpeed = 0 
 
+maxSpeed = 250
+acceleration = 1000
+
 moveSpeed = 5
 
 //Player slows down when not moving

@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-alarm[1]=room_speed/10
+alarm[1]=global.game_speed_fps/10
 		var inst_ = instance_create_depth(x,y,-10000,obj_particle)
 		with(inst_)
 		{
