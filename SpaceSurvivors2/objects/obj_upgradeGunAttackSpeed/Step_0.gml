@@ -13,7 +13,7 @@ if (place_meeting(x, y, obj_playerParent)) {
 		
 		global.gold-=price
 		
-		with(obj_gun){maxCooldown*=0.75}
+		with(obj_gun){maxCooldown*=0.8}
 		
         // Reset ticker
         tick=0

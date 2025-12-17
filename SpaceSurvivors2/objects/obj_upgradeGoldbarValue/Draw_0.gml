@@ -6,7 +6,7 @@ draw_set_halign(fa_center)
 draw_set_color(c_white)
 draw_set_font(font_12)
 
-draw_text(x,y-30,"+1 GOLDBAR \nVALUE \n$" +string(price))
+draw_text(x,y-30,"+1 BATTERY\nVALUE \n$" +string(price))
 
 draw_set_halign(fa_left)
 

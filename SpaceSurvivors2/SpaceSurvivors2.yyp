@@ -53,6 +53,7 @@
     {"id":{"name":"obj_ctrlMenu","path":"objects/obj_ctrlMenu/obj_ctrlMenu.yy",},},
     {"id":{"name":"obj_ctrlPersistent","path":"objects/obj_ctrlPersistent/obj_ctrlPersistent.yy",},},
     {"id":{"name":"obj_effect","path":"objects/obj_effect/obj_effect.yy",},},
+    {"id":{"name":"obj_fadeIn","path":"objects/obj_fadeIn/obj_fadeIn.yy",},},
     {"id":{"name":"obj_gameLeaver","path":"objects/obj_gameLeaver/obj_gameLeaver.yy",},},
     {"id":{"name":"obj_gamepadController","path":"objects/obj_gamepadController/obj_gamepadController.yy",},},
     {"id":{"name":"obj_gameTitle","path":"objects/obj_gameTitle/obj_gameTitle.yy",},},
@@ -83,6 +84,7 @@
     {"id":{"name":"obj_wallInvis","path":"objects/obj_wallInvis/obj_wallInvis.yy",},},
     {"id":{"name":"obj_win","path":"objects/obj_win/obj_win.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"id":{"name":"rm_gameIntro","path":"rooms/rm_gameIntro/rm_gameIntro.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"scr_gamepadsVars","path":"scripts/scr_gamepadsVars/scr_gamepadsVars.yy",},},
     {"id":{"name":"s_backgroundMusic","path":"sounds/s_backgroundMusic/s_backgroundMusic.yy",},},
@@ -124,6 +126,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_gameIntro","path":"rooms/rm_gameIntro/rm_gameIntro.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
   ],
