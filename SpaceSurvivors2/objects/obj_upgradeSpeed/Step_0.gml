@@ -24,9 +24,8 @@ if (place_meeting(x, y, obj_playerParent)) {
 		
 		with(obj_playerParent)
 		{
-			moveSpeed+=0.5 
-			if(moveSpeed>10){instance_destroy(other)}
-			if(moveSpeed>=8){friction+=0.1}
+			maxSpeed+=50
+			if(moveSpeed>700){instance_destroy(other)}
 		}
     }
 }

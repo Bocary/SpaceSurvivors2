@@ -2,7 +2,7 @@
 // You can write your code in this editor
 alarm[1] = irandom_range(room_speed*2, room_speed*4)
 
-if(x>1300){
+if(x>1200){
 speed=moveSpeed
 }
 else

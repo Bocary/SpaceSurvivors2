@@ -13,7 +13,7 @@ xSpeed = 0
 ySpeed = 0 
 
 maxSpeed = 250
-acceleration = 1000
+acceleration = 3000
 
 moveSpeed = 5
 
