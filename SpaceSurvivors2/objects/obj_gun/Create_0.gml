@@ -15,4 +15,5 @@ maxEnergy = 50
 energy = maxEnergy
 
 //recharge 10 energy
-alarm[0]=global.game_speed_fps*10
+alarm[0]=room_speed*10
+

@@ -5,3 +5,7 @@ global.gold=50
 global.goldGain = 3 //gold gained per pickup
 
 audio_stop_sound(s_engine)
+
+
+
+global.level=1
