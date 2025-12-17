@@ -1,5 +1,5 @@
-image_xscale = 0.1
-image_yscale = 0.1
+image_xscale = 4
+image_yscale = 4
 
 depth=-1000
 

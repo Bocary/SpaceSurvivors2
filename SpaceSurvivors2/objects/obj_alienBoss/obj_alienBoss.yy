@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_alien",
-    "path":"sprites/spr_alien/spr_alien.yy",
+    "name":"spr_alienBoss",
+    "path":"sprites/spr_alienBoss/spr_alienBoss.yy",
   },
   "spriteMaskId":null,
   "visible":true,

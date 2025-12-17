@@ -3,8 +3,13 @@
 alarm[1]=irandom_range(min_time,max_time)
 
 
-var padding_ = random_range(-100,100)
+var padding_ = 250
+
+var spawn_ = choose(obj_alien, obj_alienZigZag, obj_alienShoot)
+
+if(spawn_==obj_alienZigZag){padding_=-250}
+if(spawn_==obj_alienShoot){padding_=0}
 
 if(start_spawn){
-instance_create_depth(x-50, y+padding_,depth,obj_alien)
+instance_create_depth(x, y+padding_,depth,spawn_)
 }
