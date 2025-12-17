@@ -5,7 +5,7 @@ depth=-1000
 
 alarm[0]=2
 
-shoot_area = instance_create_depth(x-100,y,depth,obj_shootArea)
+shoot_area = instance_create_depth(x-100,y,depth-1000,obj_shootArea)
 
 
 maxCooldown = room_speed*1.5

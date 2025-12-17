@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(x>1704)
+if(x>1720)
 {
 x-=2	
 }

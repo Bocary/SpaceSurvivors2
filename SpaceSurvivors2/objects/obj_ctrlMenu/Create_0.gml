@@ -8,4 +8,4 @@ audio_stop_sound(s_engine)
 
 
 
-global.level=3
+global.level=1
