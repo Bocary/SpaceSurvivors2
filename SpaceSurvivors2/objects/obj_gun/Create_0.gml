@@ -16,3 +16,4 @@ energy = maxEnergy
 
 //recharge 10 energy
 alarm[0]=room_speed*10
+

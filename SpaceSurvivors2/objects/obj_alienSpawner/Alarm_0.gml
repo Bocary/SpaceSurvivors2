@@ -3,7 +3,11 @@ if(spawn==1)
 {
 	yAlienSpawn = random_range(-50,room_height+50)
 
-	instance_create_depth(xAlienSpawn, yAlienSpawn, 0, obj_alien)
+	
+	var spawn_ = choose(obj_alien,obj_alien,obj_alienZigZag, obj_alienShoot)
+
+	
+	instance_create_depth(xAlienSpawn, yAlienSpawn, 0, spawn_)
 }
 
 //spawn tilfældigt mellem 1 og 3s
