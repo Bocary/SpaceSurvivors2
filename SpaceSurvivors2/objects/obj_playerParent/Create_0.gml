@@ -12,7 +12,10 @@ shoot = 0
 xSpeed = 0 
 ySpeed = 0 
 
-moveSpeed = 5
+moveSpeed = 2.5
 
 //Player slows down when not moving
 friction = .5
+
+x_rem = 0;
+y_rem = 0;
